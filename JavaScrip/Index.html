@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>Records Form</title>
+</head>
+<body>
+    <div class="container">
+        <form id="recordForm">
+            <h1>Records Form</h1>
+            <div>
+                <input type="text" id="fullName" placeholder="Full Name" required>
+            </div>
+            <div>
+                <input type="text" id="District" placeholder="District" required>
+            </div>
+            <div>
+                <input type="number" id="age" placeholder="Age" required>
+            </div>
+            <div>
+                <input type="text" id="city" placeholder="City" required>
+            </div>
+            <button type="submit" id="button">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="user-details-container">
+            <h2>User Details</h2>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button type="button" id="searchButton">Search</button>
+            </div>
+            <table id="userDetails">
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>District</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script type="module" src="/JavaScrip/main.js"></script>
+</body>
+</html>

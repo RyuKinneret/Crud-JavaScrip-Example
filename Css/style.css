@@ -1,0 +1,150 @@
+body {
+    font-family: "Baskerville Old Face", serif;
+    margin: 0;
+    padding: 0;
+    background: url('/Css/LF\ 1.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    margin: 20px;
+}
+
+.user-details-container {
+    width: 100%;
+    text-align: center; 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+#search {
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgb(200, 200, 200);
+    color: #000000;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #ffffff;
+}
+
+#recordForm {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+#recordForm button[type="submit"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgb(200, 200, 200);
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#recordForm button[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+#userDetailsContainer {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 20px; 
+    display: flex; 
+}
+
+#userDetailsTable {
+    width: 100%;
+    table-layout: fixed; 
+    text-align: center; 
+}
+
+#userDetailsTable th {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#userDetailsTable td {
+    padding: 8px;
+    border-bottom: 1px solid #dddddd;
+    white-space: nowrap; 
+}
+
+#userDetails {
+    width: 100%;
+    text-align: center; 
+}
+
+#userDetails th {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#userDetails td {
+    padding: 8px;
+    border-bottom: 1px solid #dddddd;
+}
